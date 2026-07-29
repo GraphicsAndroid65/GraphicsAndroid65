@@ -23,16 +23,13 @@
     <a href="mailto:GraphicsAnd65@gmail.com">
       <img src="https://img.shields.io/badge/Email-GraphicsAnd65@gmail.com-00f2fe?style=for-the-badge&logo=gmail&labelColor=0d1117" />
     </a>
-    <a href="https://graphicsandroid65.github.io/">
-      <img src="https://img.shields.io/badge/Portfolio-Visit_Website-7f00ff?style=for-the-badge&logo=google-chrome&labelColor=0d1117" />
-    </a>
   </p>
 
 </div>
 
 ---
 
-### 🚀 Projects Showcase
+### 🚀 Public Repositories
 
 | Project | Category | Key Technologies | Link |
 | :--- | :--- | :--- | :--- |
@@ -45,7 +42,7 @@
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### 🛠️ Tech Stack
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -55,10 +52,4 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-</div>
-
-<br/>
-
-<div align="center">
-  <sub>Portfolio: <a href="https://graphicsandroid65.github.io/">https://graphicsandroid65.github.io/</a></sub>
 </div>
