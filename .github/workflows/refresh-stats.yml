@@ -43,7 +43,19 @@ jobs:
           git add assets
           if git diff --cached --quiet; then
             echo "assets already up to date"
-          else
-            git commit -m "chore(assets): refresh profile stats [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore(assets): refresh profile stats [skip ci]"
+          # the ref can move under us if anything else pushes while we run,
+          # so rebase onto whatever landed and retry a few times
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected, rebasing onto origin/${GITHUB_REF_NAME} (attempt $attempt)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || exit 1
+            sleep $((attempt * 3))
+          done
+          echo "::error::could not push refreshed assets after 5 attempts"
+          exit 1
