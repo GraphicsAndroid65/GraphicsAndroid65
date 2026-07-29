@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="8" viewBox="0 0 1200 8" role="img" aria-label="section divider">
+  <defs>
+    <linearGradient id="dg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff3d81" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#ff3d81"/>
+      <stop offset="50%" stop-color="#ffb340"/>
+      <stop offset="80%" stop-color="#7c4dff"/>
+      <stop offset="100%" stop-color="#7c4dff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .run{animation:run 3.8s ease-in-out infinite}
+    @keyframes run{0%{transform:translateX(-600px)}100%{transform:translateX(600px)}}
+    .br{animation:br 3.8s ease-in-out infinite}
+    @keyframes br{0%,100%{opacity:.45}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect class="br" y="2.8" width="1200" height="2.5" rx="1.25" fill="url(#dg)"/>
+  <rect class="run" x="490" y="2.2" width="220" height="3.5" rx="1.75" fill="url(#dh)" opacity="0.85"/>
+</svg>
