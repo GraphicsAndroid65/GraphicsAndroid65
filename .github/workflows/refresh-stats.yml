@@ -1,0 +1,49 @@
+name: Refresh profile assets
+
+# Regenerates the animated stats / language / contribution SVGs in assets/
+# straight from the GitHub API, so the README never relies on an external
+# image service that can rate-limit or shut down.
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"      # every Monday, 04:17 UTC
+  workflow_dispatch:           # and on demand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "tools/**"
+      - ".github/workflows/refresh-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-assets
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate animated SVG assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/refresh.py "${{ github.repository_owner }}"
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --cached --quiet; then
+            echo "assets already up to date"
+          else
+            git commit -m "chore(assets): refresh profile stats [skip ci]"
+            git push
+          fi
