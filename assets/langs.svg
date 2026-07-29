@@ -69,7 +69,7 @@
     <text class="sub" x="30" y="56">BY BYTES ACROSS ALL PUBLIC REPOSITORIES</text>
     <g clip-path="url(#framel)">
       <rect x="30" y="74" width="500" height="13" rx="6.5" fill="#0a0611"/>
-      <g clip-path="url(#meter)"><rect class="sg" style="animation-delay:0.25s;transform-origin:30.0px 0" x="30.0" y="74" width="326.5" height="13" fill="#ff3d81"/><rect class="sg" style="animation-delay:0.36s;transform-origin:356.5px 0" x="356.5" y="74" width="96.6" height="13" fill="#ffb340"/><rect class="sg" style="animation-delay:0.47s;transform-origin:453.1px 0" x="453.1" y="74" width="49.2" height="13" fill="#7c4dff"/><rect class="sg" style="animation-delay:0.58s;transform-origin:502.3px 0" x="502.3" y="74" width="18.1" height="13" fill="#ffb340"/><rect class="sg" style="animation-delay:0.69s;transform-origin:520.4px 0" x="520.4" y="74" width="3.8" height="13" fill="#ff5c8a"/><rect class="sg" style="animation-delay:0.80s;transform-origin:524.2px 0" x="524.2" y="74" width="2.4" height="13" fill="#5ee7a0"/></g>
+      <g clip-path="url(#meter)"><rect class="sg" style="animation-delay:0.25s;transform-origin:30.0px 0" x="30.0" y="74" width="325.1" height="13" fill="#ff3d81"/><rect class="sg" style="animation-delay:0.36s;transform-origin:355.1px 0" x="355.1" y="74" width="96.2" height="13" fill="#ffb340"/><rect class="sg" style="animation-delay:0.47s;transform-origin:451.3px 0" x="451.3" y="74" width="51.1" height="13" fill="#7c4dff"/><rect class="sg" style="animation-delay:0.58s;transform-origin:502.4px 0" x="502.4" y="74" width="18.0" height="13" fill="#ffb340"/><rect class="sg" style="animation-delay:0.69s;transform-origin:520.4px 0" x="520.4" y="74" width="3.8" height="13" fill="#ff5c8a"/><rect class="sg" style="animation-delay:0.80s;transform-origin:524.2px 0" x="524.2" y="74" width="2.4" height="13" fill="#5ee7a0"/></g>
       <clipPath id="meter"><rect x="30" y="74" width="500" height="13" rx="6.5"/></clipPath>
       <rect class="shine" x="30" y="74" width="60" height="13" fill="#fff" opacity="0"/>
     </g>
@@ -77,17 +77,17 @@
     <g class="rw" style="animation-delay:0.50s">
       <rect x="34" y="111" width="11" height="11" rx="3" fill="#ff3d81"/>
       <text class="lb" x="53" y="118">HTML</text>
-      <text class="vl" x="259" y="118" text-anchor="end">65.3%</text>
+      <text class="vl" x="259" y="118" text-anchor="end">65.0%</text>
     </g>
     <g class="rw" style="animation-delay:0.59s">
       <rect x="34" y="132" width="11" height="11" rx="3" fill="#ffb340"/>
       <text class="lb" x="53" y="139">TeX</text>
-      <text class="vl" x="259" y="139" text-anchor="end">19.3%</text>
+      <text class="vl" x="259" y="139" text-anchor="end">19.2%</text>
     </g>
     <g class="rw" style="animation-delay:0.68s">
       <rect x="34" y="153" width="11" height="11" rx="3" fill="#7c4dff"/>
       <text class="lb" x="53" y="160">Python</text>
-      <text class="vl" x="259" y="160" text-anchor="end">9.8%</text>
+      <text class="vl" x="259" y="160" text-anchor="end">10.2%</text>
     </g>
     <g class="rw" style="animation-delay:0.77s">
       <rect x="290.0" y="111" width="11" height="11" rx="3" fill="#ffb340"/>
