@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="242" viewBox="0 0 1200 242" role="img" aria-label="Tech Arsenal: Python, JavaScript, HTML5, CSS3, FastAPI, scikit-learn, pandas, NumPy, Random Forest, C++, PowerShell, Android, Git, REST APIs, Jupyter">
+  <title>Tech Arsenal</title>
+
+  <defs>
+    <linearGradient id="acck" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff3d81"/>
+      <stop offset="55%" stop-color="#ffb340"/>
+      <stop offset="100%" stop-color="#7c4dff"/>
+    </linearGradient>
+    <linearGradient id="surfk" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" stop-color="#160d22"/>
+      <stop offset="100%" stop-color="#0a0611"/>
+    </linearGradient>
+    <radialGradient id="blobk" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff3d81" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff3d81" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2k" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb340" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffb340" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob3k" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c4dff" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#7c4dff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="gridk" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#2d1a3d" stroke-width="1" stroke-opacity="0.55"/>
+    </pattern>
+    <filter id="softk" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="glowk" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="framek"><rect width="1200" height="242" rx="16"/></clipPath>
+  </defs>
+  <defs>
+    <linearGradient id="cgk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff3d81" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffb340" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .cl{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace;font-size:13.5px;font-weight:600;fill:#e8edf7;dominant-baseline:middle}
+    .hd{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:17px;font-weight:700;fill:url(#acck)}
+    .sub{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace;font-size:9.5px;fill:#8b97b0;letter-spacing:1.6px}
+    @keyframes pop{from{opacity:0;transform:translateY(12px) scale(.94)}to{opacity:1;transform:none}}
+    @keyframes breathe{0%,100%{opacity:1}50%{opacity:.74}}
+    .ch0{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.12s both,breathe 4.6s ease-in-out 1.02s infinite}.ch1{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.18s both,breathe 4.6s ease-in-out 1.08s infinite}.ch2{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.24s both,breathe 4.6s ease-in-out 1.14s infinite}.ch3{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.30s both,breathe 4.6s ease-in-out 1.20s infinite}.ch4{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.36s both,breathe 4.6s ease-in-out 1.26s infinite}.ch5{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.42s both,breathe 4.6s ease-in-out 1.32s infinite}.ch6{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.48s both,breathe 4.6s ease-in-out 1.38s infinite}.ch7{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.54s both,breathe 4.6s ease-in-out 1.44s infinite}.ch8{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.60s both,breathe 4.6s ease-in-out 1.50s infinite}.ch9{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.66s both,breathe 4.6s ease-in-out 1.56s infinite}.ch10{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.72s both,breathe 4.6s ease-in-out 1.62s infinite}.ch11{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.78s both,breathe 4.6s ease-in-out 1.68s infinite}.ch12{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.84s both,breathe 4.6s ease-in-out 1.74s infinite}.ch13{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.90s both,breathe 4.6s ease-in-out 1.80s infinite}.ch14{opacity:0;animation:pop .6s cubic-bezier(.2,.9,.2,1) 0.96s both,breathe 4.6s ease-in-out 1.86s infinite}
+
+    .b1{animation:d1 19s ease-in-out infinite}
+    .b2{animation:d2 23s ease-in-out infinite}
+    .b3{animation:d3 27s ease-in-out infinite}
+    @keyframes d1{0%,100%{transform:translate(0,0)}50%{transform:translate(70px,26px)}}
+    @keyframes d2{0%,100%{transform:translate(0,0)}50%{transform:translate(-80px,-30px)}}
+    @keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,34px)}}
+
+    @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+  </style>
+  <g clip-path="url(#framek)">
+    <rect width="1200" height="242" fill="url(#surfk)"/>
+
+  <g filter="url(#softk)" opacity="0.95">
+    <circle class="b1" cx="216" cy="72" r="150" fill="url(#blobk)"/>
+    <circle class="b2" cx="888" cy="164" r="159" fill="url(#blob2k)"/>
+    <circle class="b3" cx="576" cy="29" r="121" fill="url(#blob3k)"/>
+  </g>
+    <rect width="1200" height="242" fill="url(#gridk)" opacity="0.26"/>
+    <text class="hd" x="46" y="32">Tech Arsenal</text>
+    <text class="sub" x="46" y="50">LANGUAGES · RUNTIMES · TOOLING</text>
+    <line x1="46" y1="48" x2="1154" y2="48" stroke="#2d1a3d" stroke-width="1"/>
+
+    <g class="ch0">
+      <rect x="277.2" y="62" width="86.4" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="277.2" y="62" width="86.4" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="320.4" y="85.0" text-anchor="middle" class="cl">Python</text>
+    </g>
+    <g class="ch1">
+      <rect x="375.6" y="62" width="120.0" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="375.6" y="62" width="120.0" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="435.6" y="85.0" text-anchor="middle" class="cl">JavaScript</text>
+    </g>
+    <g class="ch2">
+      <rect x="507.6" y="62" width="78.0" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="507.6" y="62" width="78.0" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="546.6" y="85.0" text-anchor="middle" class="cl">HTML5</text>
+    </g>
+    <g class="ch3">
+      <rect x="597.6" y="62" width="69.6" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="597.6" y="62" width="69.6" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="632.4" y="85.0" text-anchor="middle" class="cl">CSS3</text>
+    </g>
+    <g class="ch4">
+      <rect x="679.2" y="62" width="94.8" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="679.2" y="62" width="94.8" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="726.6" y="85.0" text-anchor="middle" class="cl">FastAPI</text>
+    </g>
+    <g class="ch5">
+      <rect x="786.0" y="62" width="136.8" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="786.0" y="62" width="136.8" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="854.4" y="85.0" text-anchor="middle" class="cl">scikit-learn</text>
+    </g>
+    <g class="ch6">
+      <rect x="277.2" y="118" width="86.4" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="277.2" y="118" width="86.4" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="320.4" y="141.0" text-anchor="middle" class="cl">pandas</text>
+    </g>
+    <g class="ch7">
+      <rect x="375.6" y="118" width="78.0" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="375.6" y="118" width="78.0" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="414.6" y="141.0" text-anchor="middle" class="cl">NumPy</text>
+    </g>
+    <g class="ch8">
+      <rect x="465.6" y="118" width="145.2" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="465.6" y="118" width="145.2" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="538.2" y="141.0" text-anchor="middle" class="cl">Random Forest</text>
+    </g>
+    <g class="ch9">
+      <rect x="622.8" y="118" width="61.2" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="622.8" y="118" width="61.2" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="653.4" y="141.0" text-anchor="middle" class="cl">C++</text>
+    </g>
+    <g class="ch10">
+      <rect x="696.0" y="118" width="120.0" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="696.0" y="118" width="120.0" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="756.0" y="141.0" text-anchor="middle" class="cl">PowerShell</text>
+    </g>
+    <g class="ch11">
+      <rect x="828.0" y="118" width="94.8" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="828.0" y="118" width="94.8" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="875.4" y="141.0" text-anchor="middle" class="cl">Android</text>
+    </g>
+    <g class="ch12">
+      <rect x="454.2" y="174" width="61.2" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="454.2" y="174" width="61.2" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="484.8" y="197.0" text-anchor="middle" class="cl">Git</text>
+    </g>
+    <g class="ch13">
+      <rect x="527.4" y="174" width="111.6" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="527.4" y="174" width="111.6" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="583.2" y="197.0" text-anchor="middle" class="cl">REST APIs</text>
+    </g>
+    <g class="ch14">
+      <rect x="651.0" y="174" width="94.8" height="44" rx="10" fill="#160d22"
+            stroke="url(#cgk)" stroke-width="1.4"/>
+      <rect x="651.0" y="174" width="94.8" height="44" rx="10" fill="url(#acck)" opacity="0.10"/>
+      <text x="698.4" y="197.0" text-anchor="middle" class="cl">Jupyter</text>
+    </g>
+    <rect width="1200" height="242" rx="16" fill="none" stroke="#ff3d81" stroke-opacity="0.26" stroke-width="1.5"/>
+  </g>
+</svg>
