@@ -21,7 +21,8 @@ Full-stack developer from India. I build **web applications** and **machine lear
 | :-- | :-- | :-- |
 | **[Plug-Point_website](https://github.com/GraphicsAndroid65/Plug-Point_website)** | EV charging platform — locate, book and pay for charging stations. | `HTML` `CSS` `JS` |
 | **[customer_churn_prediction](https://github.com/GraphicsAndroid65/customer_churn_prediction)** | Churn predictor served over an API, Random Forest model with a web front-end. | `Python` `FastAPI` `scikit-learn` |
-| **[Aura-CTR-Prediction](https://github.com/GraphicsAndroid65/Aura-CTR-Prediction)** | Click-through-rate prediction on ad-impression data. | `Python` `pandas` |
+| **[Aura-CTR-Prediction](https://github.com/GraphicsAndroid65/Aura-CTR-Prediction)** | Ad click-through-rate prediction — Gradient Boosting model with a React 19 front-end on Firebase. | `React` `Gradient Boosting` `Firebase` |
+| **[payload](https://github.com/GraphicsAndroid65/payload)** | AI chatbot embedded in Windows PowerShell and CMD. Code in, code out, no admin rights needed. | `PowerShell` |
 | **[Hospital_Management_System](https://github.com/GraphicsAndroid65/Hospital_Management_System)** | Modular patient-data analysis: demographics, treatment cost, medical patterns. | `Python` |
 | **[SmartCampus_SIH](https://github.com/GraphicsAndroid65/SmartCampus_SIH)** | Smart India Hackathon campus-management prototype. | `JavaScript` |
 | **[Employee_Management_library-c-](https://github.com/GraphicsAndroid65/Employee_Management_library-c-)** | Employee records system — add, modify, delete, search. | `C++` |
