@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="240" viewBox="0 0 560 240" role="img" aria-label="GitHub statistics for GraphicsAndroid65">
+  <title>GraphicsAndroid65 — GitHub statistics</title>
+
+  <defs>
+    <linearGradient id="accs" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff3d81"/>
+      <stop offset="55%" stop-color="#ffb340"/>
+      <stop offset="100%" stop-color="#7c4dff"/>
+    </linearGradient>
+    <linearGradient id="surfs" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" stop-color="#160d22"/>
+      <stop offset="100%" stop-color="#0a0611"/>
+    </linearGradient>
+    <radialGradient id="blobs" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff3d81" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff3d81" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2s" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb340" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffb340" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob3s" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c4dff" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#7c4dff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grids" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#2d1a3d" stroke-width="1" stroke-opacity="0.55"/>
+    </pattern>
+    <filter id="softs" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="glows" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frames"><rect width="560" height="240" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .hd{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;fill:url(#accs)}
+    .sub{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace;font-size:9px;fill:#8b97b0;letter-spacing:1.5px}
+    .lb{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:12px;fill:#8b97b0;dominant-baseline:middle}
+    .vl{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace;font-size:13px;font-weight:700;fill:#e8edf7;dominant-baseline:middle}
+    .rw{opacity:0;animation:sl .55s cubic-bezier(.2,.9,.2,1) both}
+    @keyframes sl{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}
+    .bar{transform:scaleY(0);animation:gy .7s cubic-bezier(.2,.9,.2,1) both}
+    @keyframes gy{to{transform:scaleY(1)}}
+
+    .b1{animation:d1 19s ease-in-out infinite}
+    .b2{animation:d2 23s ease-in-out infinite}
+    .b3{animation:d3 27s ease-in-out infinite}
+    @keyframes d1{0%,100%{transform:translate(0,0)}50%{transform:translate(70px,26px)}}
+    @keyframes d2{0%,100%{transform:translate(0,0)}50%{transform:translate(-80px,-30px)}}
+    @keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,34px)}}
+
+    @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+  </style>
+  <g clip-path="url(#frames)">
+    <rect width="560" height="240" fill="url(#surfs)"/>
+
+  <g filter="url(#softs)" opacity="0.95">
+    <circle class="b1" cx="100" cy="72" r="148" fill="url(#blobs)"/>
+    <circle class="b2" cx="414" cy="163" r="158" fill="url(#blob2s)"/>
+    <circle class="b3" cx="268" cy="28" r="120" fill="url(#blob3s)"/>
+  </g>
+    <rect width="560" height="240" fill="url(#grids)" opacity="0.28"/>
+    <text class="hd" x="30" y="36">GitHub Statistics</text>
+    <text class="sub" x="30" y="54">SELF-HOSTED · REGENERATED 2026-07-29</text>
+    <line x1="30" y1="64" x2="530" y2="64" stroke="#2d1a3d" stroke-width="1"/>
+
+    <g class="rw" style="animation-delay:0.15s">
+      <circle cx="30" cy="82" r="2.6" fill="#ff3d81"/>
+      <text class="lb" x="44" y="86">Public repositories</text>
+      <text class="vl" x="530" y="86" text-anchor="end">13</text>
+    </g>
+    <g class="rw" style="animation-delay:0.23s">
+      <circle cx="30" cy="106" r="2.6" fill="#ff3d81"/>
+      <text class="lb" x="44" y="110">Total stars earned</text>
+      <text class="vl" x="530" y="110" text-anchor="end">0</text>
+    </g>
+    <g class="rw" style="animation-delay:0.32s">
+      <circle cx="30" cy="130" r="2.6" fill="#ff3d81"/>
+      <text class="lb" x="44" y="134">Contributions (12 mo)</text>
+      <text class="vl" x="530" y="134" text-anchor="end">35</text>
+    </g>
+    <g class="rw" style="animation-delay:0.41s">
+      <circle cx="30" cy="154" r="2.6" fill="#ff3d81"/>
+      <text class="lb" x="44" y="158">Commits (12 mo)</text>
+      <text class="vl" x="530" y="158" text-anchor="end">30</text>
+    </g>
+    <g class="rw" style="animation-delay:0.49s">
+      <circle cx="30" cy="178" r="2.6" fill="#ff3d81"/>
+      <text class="lb" x="44" y="182">Repos created (12 mo)</text>
+      <text class="vl" x="530" y="182" text-anchor="end">5</text>
+    </g>
+    <g class="rw" style="animation-delay:0.58s">
+      <circle cx="30" cy="202" r="2.6" fill="#ff3d81"/>
+      <text class="lb" x="44" y="206">Followers</text>
+      <text class="vl" x="530" y="206" text-anchor="end">1</text>
+    </g>
+    <line x1="30" y1="221" x2="530" y2="221" stroke="#2d1a3d" stroke-width="1"/>
+<rect class="bar" style="animation-delay:0.75s;transform-origin:93.0px 214px" x="80.0" y="212.0" width="26" height="2.0" rx="3.5" fill="url(#accs)" opacity="0.45"/><rect class="bar" style="animation-delay:0.81s;transform-origin:127.0px 214px" x="114.0" y="212.0" width="26" height="2.0" rx="3.5" fill="url(#accs)" opacity="0.45"/><rect class="bar" style="animation-delay:0.86s;transform-origin:161.0px 214px" x="148.0" y="179.5" width="26" height="34.5" rx="3.5" fill="url(#accs)" opacity="0.86"/><rect class="bar" style="animation-delay:0.92s;transform-origin:195.0px 214px" x="182.0" y="168.0" width="26" height="46.0" rx="3.5" fill="url(#accs)" opacity="1.00"/><rect class="bar" style="animation-delay:0.97s;transform-origin:229.0px 214px" x="216.0" y="212.0" width="26" height="2.0" rx="3.5" fill="url(#accs)" opacity="0.45"/><rect class="bar" style="animation-delay:1.02s;transform-origin:263.0px 214px" x="250.0" y="212.0" width="26" height="2.0" rx="3.5" fill="url(#accs)" opacity="0.45"/><rect class="bar" style="animation-delay:1.08s;transform-origin:297.0px 214px" x="284.0" y="212.0" width="26" height="2.0" rx="3.5" fill="url(#accs)" opacity="0.45"/><rect class="bar" style="animation-delay:1.14s;transform-origin:331.0px 214px" x="318.0" y="212.0" width="26" height="2.0" rx="3.5" fill="url(#accs)" opacity="0.45"/><rect class="bar" style="animation-delay:1.19s;transform-origin:365.0px 214px" x="352.0" y="179.5" width="26" height="34.5" rx="3.5" fill="url(#accs)" opacity="0.86"/><rect class="bar" style="animation-delay:1.25s;transform-origin:399.0px 214px" x="386.0" y="212.0" width="26" height="2.0" rx="3.5" fill="url(#accs)" opacity="0.45"/><rect class="bar" style="animation-delay:1.30s;transform-origin:433.0px 214px" x="420.0" y="212.0" width="26" height="2.0" rx="3.5" fill="url(#accs)" opacity="0.45"/><rect class="bar" style="animation-delay:1.35s;transform-origin:467.0px 214px" x="454.0" y="194.8" width="26" height="19.2" rx="3.5" fill="url(#accs)" opacity="0.68"/>
+    <rect width="560" height="240" rx="16" fill="none" stroke="#ff3d81" stroke-opacity="0.26" stroke-width="1.5"/>
+  </g>
+</svg>
