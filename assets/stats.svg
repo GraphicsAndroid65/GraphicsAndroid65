@@ -64,7 +64,7 @@
   </g>
     <rect width="560" height="240" fill="url(#grids)" opacity="0.28"/>
     <text class="hd" x="30" y="36">GitHub Statistics</text>
-    <text class="sub" x="30" y="54">SELF-HOSTED · REGENERATED 2026-08-03</text>
+    <text class="sub" x="30" y="54">SELF-HOSTED · REGENERATED 2026-08-10</text>
     <line x1="30" y1="64" x2="530" y2="64" stroke="#2d1a3d" stroke-width="1"/>
 
     <g class="rw" style="animation-delay:0.15s">
