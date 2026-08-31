@@ -64,13 +64,13 @@
   </g>
     <rect width="560" height="240" fill="url(#grids)" opacity="0.28"/>
     <text class="hd" x="30" y="36">GitHub Statistics</text>
-    <text class="sub" x="30" y="54">SELF-HOSTED · REGENERATED 2026-08-24</text>
+    <text class="sub" x="30" y="54">SELF-HOSTED · REGENERATED 2026-08-31</text>
     <line x1="30" y1="64" x2="530" y2="64" stroke="#2d1a3d" stroke-width="1"/>
 
     <g class="rw" style="animation-delay:0.15s">
       <circle cx="30" cy="82" r="2.6" fill="#ff3d81"/>
       <text class="lb" x="44" y="86">Public repositories</text>
-      <text class="vl" x="530" y="86" text-anchor="end">13</text>
+      <text class="vl" x="530" y="86" text-anchor="end">12</text>
     </g>
     <g class="rw" style="animation-delay:0.23s">
       <circle cx="30" cy="106" r="2.6" fill="#ff3d81"/>
