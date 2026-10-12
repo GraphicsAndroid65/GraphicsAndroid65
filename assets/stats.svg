@@ -64,7 +64,7 @@
   </g>
     <rect width="560" height="240" fill="url(#grids)" opacity="0.28"/>
     <text class="hd" x="30" y="36">GitHub Statistics</text>
-    <text class="sub" x="30" y="54">SELF-HOSTED · REGENERATED 2026-10-05</text>
+    <text class="sub" x="30" y="54">SELF-HOSTED · REGENERATED 2026-10-12</text>
     <line x1="30" y1="64" x2="530" y2="64" stroke="#2d1a3d" stroke-width="1"/>
 
     <g class="rw" style="animation-delay:0.15s">
@@ -80,17 +80,17 @@
     <g class="rw" style="animation-delay:0.32s">
       <circle cx="30" cy="130" r="2.6" fill="#ff3d81"/>
       <text class="lb" x="44" y="134">Contributions (12 mo)</text>
-      <text class="vl" x="530" y="134" text-anchor="end">40</text>
+      <text class="vl" x="530" y="134" text-anchor="end">31</text>
     </g>
     <g class="rw" style="animation-delay:0.41s">
       <circle cx="30" cy="154" r="2.6" fill="#ff3d81"/>
       <text class="lb" x="44" y="158">Commits (12 mo)</text>
-      <text class="vl" x="530" y="158" text-anchor="end">35</text>
+      <text class="vl" x="530" y="158" text-anchor="end">27</text>
     </g>
     <g class="rw" style="animation-delay:0.49s">
       <circle cx="30" cy="178" r="2.6" fill="#ff3d81"/>
       <text class="lb" x="44" y="182">Repos created (12 mo)</text>
-      <text class="vl" x="530" y="182" text-anchor="end">5</text>
+      <text class="vl" x="530" y="182" text-anchor="end">4</text>
     </g>
     <g class="rw" style="animation-delay:0.58s">
       <circle cx="30" cy="202" r="2.6" fill="#ff3d81"/>
